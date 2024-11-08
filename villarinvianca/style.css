@@ -1,0 +1,114 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background for the page */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #007BFF; /* Blue background for the navigation */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav .btn {
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form Styles */
+form p {
+    margin-bottom: 15px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #FFEB3B; /* Light Yellow for buttons */
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #fdd835; /* Slightly darker yellow on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007BFF; /* Blue header */
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #ffffff; /* White rows */
+}
+
+/* Button for Actions */
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    background-color: #FFEB3B; /* Light yellow for buttons */
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-edit:hover {
+    background-color: #fdd835; /* Darker yellow on hover */
+}
+
+.btn-delete {
+    background-color: #f44336; /* Red for delete */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #da190b; /* Darker red on hover */
+}
